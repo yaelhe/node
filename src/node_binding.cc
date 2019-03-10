@@ -56,6 +56,7 @@
   V(http_parser_llhttp)                                                        \
   V(inspector)                                                                 \
   V(js_stream)                                                                 \
+  V(locks)                                                                 \
   V(messaging)                                                                 \
   V(module_wrap)                                                               \
   V(native_module)                                                             \

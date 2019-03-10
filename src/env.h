@@ -178,6 +178,7 @@ constexpr size_t kFsStatsBufferLength = kFsStatsFieldsNumber * 2;
   V(errno_string, "errno")                                                     \
   V(error_string, "error")                                                     \
   V(exchange_string, "exchange")                                               \
+  V(exclusive_string, "exclusive")                                             \
   V(exit_code_string, "exitCode")                                              \
   V(expire_string, "expire")                                                   \
   V(exponent_string, "exponent")                                               \
@@ -198,6 +199,7 @@ constexpr size_t kFsStatsBufferLength = kFsStatsFieldsNumber * 2;
   V(gid_string, "gid")                                                         \
   V(h2_string, "h2")                                                           \
   V(handle_string, "handle")                                                   \
+  V(held_string, "held")                                                   \
   V(help_text_string, "helpText")                                              \
   V(homedir_string, "homedir")                                                 \
   V(host_string, "host")                                                       \
@@ -224,6 +226,7 @@ constexpr size_t kFsStatsBufferLength = kFsStatsFieldsNumber * 2;
   V(message_port_string, "messagePort")                                        \
   V(message_string, "message")                                                 \
   V(minttl_string, "minttl")                                                   \
+  V(mode_string, "mode")                                                   \
   V(module_string, "module")                                                   \
   V(modulus_string, "modulus")                                                 \
   V(name_string, "name")                                                       \
@@ -257,6 +260,7 @@ constexpr size_t kFsStatsBufferLength = kFsStatsFieldsNumber * 2;
   V(parse_error_string, "Parse Error")                                         \
   V(password_string, "password")                                               \
   V(path_string, "path")                                                       \
+  V(pending_string, "pending")                                                 \
   V(pending_handle_string, "pendingHandle")                                    \
   V(pid_string, "pid")                                                         \
   V(pipe_source_string, "pipeSource")                                          \
@@ -289,6 +293,7 @@ constexpr size_t kFsStatsBufferLength = kFsStatsFieldsNumber * 2;
   V(servername_string, "servername")                                           \
   V(service_string, "service")                                                 \
   V(session_id_string, "sessionId")                                            \
+  V(shared_string, "shared")                                                   \
   V(shell_string, "shell")                                                     \
   V(signal_string, "signal")                                                   \
   V(sink_string, "sink")                                                       \
